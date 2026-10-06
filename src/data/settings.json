@@ -1,0 +1,17 @@
+{
+  "contactNumbers": {
+    "dubai": "+971 55 431 6535",
+    "tollFree": "",
+    "landlineDubai": "",
+    "emailDubai": "Info@amerattestation.ae"
+  },
+  "branches": [
+    {
+      "slug": "dubai",
+      "city": "Dubai (Head Office)",
+      "address": "Al Muteena, Next to Fish Roundabout, Dubai, UAE",
+      "phone": "+971 55 431 6535",
+      "email": "Info@amerattestation.ae"
+    }
+  ]
+}

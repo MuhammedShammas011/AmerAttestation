@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "mofa-attestation",
+    "name": "MOFA Attestation",
+    "description": "Ministry of Foreign Affairs legalization in home country & UAE."
+  },
+  {
+    "slug": "embassy-attestation",
+    "name": "Embassy Attestation",
+    "description": "Attestation from the relevant embassy or consulate."
+  },
+  {
+    "slug": "apostille",
+    "name": "Apostille",
+    "description": "Hague apostille for Hague Convention member countries."
+  },
+  {
+    "slug": "translation",
+    "name": "Translation",
+    "description": "Certified, government-approved legal translation."
+  },
+  {
+    "slug": "certified-true-copy",
+    "name": "Certified True Copy",
+    "description": "Notarized true copies of original documents."
+  },
+  {
+    "slug": "equivalency",
+    "name": "Equivalency",
+    "description": "Educational equivalency certification for degrees & diplomas."
+  },
+  {
+    "slug": "family-visa",
+    "name": "Family Visa",
+    "description": "Support documentation for UAE family visa applications."
+  },
+  {
+    "slug": "golden-visa",
+    "name": "Golden Visa",
+    "description": "Documentation support for UAE Golden Visa applications."
+  },
+  {
+    "slug": "poa",
+    "name": "Power of Attorney (POA)",
+    "description": "Drafting and attestation of power of attorney documents."
+  },
+  {
+    "slug": "pcc",
+    "name": "Police Clearance Certificate (PCC)",
+    "description": "PCC application and attestation processing."
+  }
+]

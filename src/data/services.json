@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "uae-embassy-attestation",
+    "name": "UAE Embassy Attestation",
+    "icon": "building",
+    "description": "Attestation of documents by the UAE Embassy in the issuing country before onward legalization."
+  },
+  {
+    "slug": "mofa-attestation",
+    "name": "MOFA Attestation",
+    "icon": "stamp",
+    "description": "Ministry of Foreign Affairs attestation in both the home country and the UAE."
+  },
+  {
+    "slug": "apostille-services",
+    "name": "Apostille Services",
+    "icon": "globe",
+    "description": "Hague Convention apostille for documents used in member countries."
+  },
+  {
+    "slug": "police-clearance-certificate",
+    "name": "Police Clearance Certificate",
+    "icon": "shield",
+    "description": "PCC processing and attestation for visa, residency and employment purposes."
+  },
+  {
+    "slug": "certificate-attestation",
+    "name": "Certificate Attestation",
+    "icon": "certificate",
+    "description": "End-to-end attestation for educational, personal and commercial certificates."
+  },
+  {
+    "slug": "degree-certificate-attestation",
+    "name": "Degree Certificate",
+    "icon": "graduation-cap",
+    "description": "Attestation of bachelor, master and PhD degree certificates for education and employment."
+  },
+  {
+    "slug": "birth-certificate-attestation",
+    "name": "Birth Certificate",
+    "icon": "baby",
+    "description": "Attestation of birth certificates for family visa and residency applications."
+  },
+  {
+    "slug": "marriage-certificate-attestation",
+    "name": "Marriage Certificate",
+    "icon": "rings",
+    "description": "Attestation of marriage certificates for family sponsorship and legal use."
+  },
+  {
+    "slug": "commercial-documents-attestation",
+    "name": "Commercial Documents",
+    "icon": "briefcase",
+    "description": "Attestation of MOA, AOA, invoices and other business documents."
+  },
+  {
+    "slug": "translation-services",
+    "name": "Translation Services",
+    "icon": "translate",
+    "description": "Certified legal translation accepted by UAE government authorities."
+  },
+  {
+    "slug": "family-visa-services",
+    "name": "Family Visa",
+    "icon": "users",
+    "description": "Document preparation and attestation support for UAE family visa applications."
+  },
+  {
+    "slug": "golden-visa-services",
+    "name": "Golden Visa",
+    "icon": "star",
+    "description": "Attestation and documentation assistance for UAE Golden Visa eligibility."
+  }
+]

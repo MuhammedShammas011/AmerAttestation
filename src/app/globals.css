@@ -1,0 +1,162 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #1a2233;
+
+  --color-brand-green: #0ca55a;
+  --color-brand-green-dark: #078b46;
+  --color-brand-navy: #0f2c4c;
+  --color-brand-gold: #e0a100;
+  --color-brand-coral: #ff8a5c;
+  --color-brand-band: #f5f7ef;
+  --color-brand-text: #1a2233;
+  --color-whatsapp: #25d366;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-brand-green: var(--color-brand-green);
+  --color-brand-green-dark: var(--color-brand-green-dark);
+  --color-brand-navy: var(--color-brand-navy);
+  --color-brand-gold: var(--color-brand-gold);
+  --color-brand-coral: var(--color-brand-coral);
+  --color-brand-band: var(--color-brand-band);
+  --color-brand-text: var(--color-brand-text);
+  --color-whatsapp: var(--color-whatsapp);
+
+  --font-heading: var(--font-dm-sans);
+  --font-sans: var(--font-inter);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-dm-sans), var(--font-inter), Arial, Helvetica, sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.section-band {
+  background: radial-gradient(circle at 15% 20%, rgba(12, 165, 90, 0.05), transparent 45%),
+    radial-gradient(circle at 85% 0%, rgba(224, 161, 0, 0.05), transparent 40%),
+    var(--color-brand-band);
+}
+
+.badge-card {
+  position: relative;
+  background: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px -14px rgba(18, 19, 26, 0.18);
+}
+
+.badge-card-icon {
+  position: absolute;
+  top: -1.25rem;
+  left: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background-color: #ffffff;
+  box-shadow: 0 10px 24px -8px rgba(12, 165, 90, 0.4);
+}
+
+.soft-card {
+  background: #ffffff;
+  border-radius: 1.25rem;
+  box-shadow: 0 16px 34px -20px rgba(22, 40, 29, 0.28);
+}
+
+.blob-green {
+  position: absolute;
+  border-radius: 43% 57% 61% 39% / 45% 41% 59% 55%;
+  background: radial-gradient(circle at 30% 30%, rgba(12, 165, 90, 0.28), rgba(12, 165, 90, 0) 70%);
+}
+
+.blob-coral {
+  position: absolute;
+  border-radius: 50% 50% 40% 60% / 60% 40% 60% 40%;
+  background: radial-gradient(circle at 60% 40%, rgba(255, 138, 92, 0.28), rgba(255, 138, 92, 0) 70%);
+}
+
+.dashed-connector {
+  background-image: repeating-linear-gradient(90deg, rgba(15, 44, 76, 0.18) 0 6px, transparent 6px 12px);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 8px 30px -8px rgba(15, 44, 76, 0.15);
+}
+
+.glass-card-dark {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.gradient-mesh {
+  background:
+    radial-gradient(circle at 10% 15%, rgba(11, 122, 75, 0.55), transparent 40%),
+    radial-gradient(circle at 85% 10%, rgba(224, 161, 0, 0.35), transparent 38%),
+    radial-gradient(circle at 60% 85%, rgba(11, 122, 75, 0.3), transparent 45%),
+    linear-gradient(135deg, #0f2c4c 0%, #0b2038 55%, #0f2c4c 100%);
+}
+
+.gradient-band {
+  background: linear-gradient(135deg, var(--color-brand-green) 0%, #0a6a42 55%, var(--color-brand-green-dark) 100%);
+}
+
+@keyframes float-slow {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, -18px);
+  }
+}
+
+.animate-float-slow {
+  animation: float-slow 7s ease-in-out infinite;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.reveal.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@keyframes fade-slide-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-slide-in {
+  animation: fade-slide-in 0.6s ease both;
+}

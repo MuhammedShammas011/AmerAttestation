@@ -464,7 +464,7 @@ export const whyChooseCards = [
 
 export const contactNumbers = {
   dubai: "+971 55 431 6535",
-  tollFree: "",
-  landlineDubai: "",
+  tollFree: "+971 55 431 6535",
+  landlineDubai: "+971 55 431 6535",
   emailDubai: "Info@amerattestation.ae",
 };

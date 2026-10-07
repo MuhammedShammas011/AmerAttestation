@@ -10,12 +10,7 @@ export const metadata: Metadata = {
     "Contact Amer Attestation Services in Dubai, UAE. Call, WhatsApp or send us your attestation request for a free quote.",
 };
 
-const mapEmbeds = [
-  {
-    city: "Dubai Office",
-    query: "Al Muteena, Next to Fish Roundabout, Dubai, UAE",
-  },
-];
+
 
 export default function ContactPage() {
   const settings = getSettings();
@@ -84,12 +79,6 @@ export default function ContactPage() {
               >
                 <Mail className="size-4" /> Mail Us
               </a>
-              <a
-                href="#maps"
-                className="flex items-center gap-2 rounded-3xl border-2 border-white/30 px-5 py-2.5 text-sm font-semibold text-white hover:bg-white/10 transition-colors"
-              >
-                <Navigation className="size-4" /> Get Directions
-              </a>
             </div>
           </div>
           <div className="flex size-40 shrink-0 items-center justify-center rounded-full bg-white/10 md:size-48">
@@ -155,28 +144,6 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Section 4: Maps */}
-      <section id="maps" className="py-16 md:py-20">
-        <div className="mx-auto max-w-7xl px-4 md:px-6">
-          <h2 className="text-center font-heading text-2xl font-bold text-brand-navy md:text-3xl">
-            Find Us on Maps
-          </h2>
-          <div className="mt-10 grid grid-cols-1 gap-6">
-            {mapEmbeds.map((map) => (
-              <div key={map.city} className="mx-auto w-full max-w-2xl overflow-hidden rounded-2xl border border-black/5 shadow-sm">
-                <p className="bg-brand-navy px-4 py-2.5 text-sm font-semibold text-white">{map.city}</p>
-                <iframe
-                  title={map.city}
-                  src={`https://maps.google.com/maps?q=${encodeURIComponent(map.query)}&output=embed`}
-                  className="h-72 w-full"
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Section 5: CTA band */}
       <ContactCtaBand />
